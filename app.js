@@ -11,13 +11,6 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + "/signup.html");
 });
 
-// app.post("/", function (req, res) {
-//   const firstName = req.body.firstName;
-//   const lastName = req.body.lastName;
-//   const email = req.body.email;
-//   console.log(firstName);
-// });
-
 mailchimp.setConfig({
   apiKey: "90a13ba522fd0dbee7386832f6187399-us10",
   server: "us10",
