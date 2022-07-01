@@ -1,5 +1,8 @@
 # news-letter-signUp
-node module require
-Express JS
-body-parser
-mailchimp-marketing
+<h1>node module require</h1>
+<ul>
+<li>Express JS</li>
+<li>body-parser</li>
+<li>mailchimp-marketing</li>
+</ul>
+<h2>You may visit the it on https://news-letter-keshav-950.herokuapp.com </h2>
