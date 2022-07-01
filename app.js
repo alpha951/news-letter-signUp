@@ -30,7 +30,7 @@ app.post("/", function (req, res) {
 
   async function run() {
     try {
-      const response = await mailchimp.lists.addListMember("0bac86e118", {
+      const response = await mailchimp.lists.addListMember("audience id", {
         email_address: subscribingUser.email,
         status: "subscribed",
         merge_fields: {
@@ -60,8 +60,8 @@ app.listen(process.env.PORT || 3000, function () {
   console.log("Server is running on port 3000");
 });
 
-// audience id 0bac86e118
-// api key 90a13ba522fd0dbee7386832f6187399-us10
+// audience id 
+// api key 
 
 //  async function run() {
 //       try {
